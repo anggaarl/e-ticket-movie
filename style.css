@@ -1,0 +1,104 @@
+body {
+    background-color: #f8f9fa;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+  }
+  .navbar-brand {
+    color: #0000;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  .hero {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #0000;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lead {
+    color: #000;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
+
+  /* Navbar Brand Hover */
+.navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out; /* Animasi perubahan warna */
+}
+
+.navbar-brand:hover {
+  color: #ffc107; /* Warna kuning saat hover */
+}
+
+/* Navbar Menu Links Hover */
+.navbar-nav .nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease-in-out; /* Animasi perubahan warna */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Warna kuning saat hover */
+}
+
+/* Navbar Toggler Button (Hamburger) Hover */
+.navbar-toggler {
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Background berubah saat hover */
+}
+
+/* Movie Card Zoom Effect */
+.card {
+  overflow: hidden; /* Agar gambar tidak keluar dari batas card */
+  transition: transform 0.3s ease-in-out; /* Animasi untuk seluruh card */
+}
+
+/* Zoom In/Out pada Card saat hover */
+.card:hover {
+  transform: scale(1.05); /* Zoom in saat hover */
+}
+
+/* Gambar di dalam card */
+.card img {
+  transition: transform 0.3s ease-in-out; /* Animasi zoom gambar */
+}
+
+/* Zoom in pada gambar di dalam card saat hover */
+.card:hover img {
+  transform: scale(1.1); /* Zoom in lebih besar pada gambar */
+}
+
+
